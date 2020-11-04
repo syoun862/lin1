@@ -2532,7 +2532,7 @@ class mainCog(commands.Cog):
 			if len(racing_member) <= 1:
 				await ctx.send('레이스 인원이 2명보다 작습니다.')
 				return
-			elif len(racing_member) >= 20:
+			elif len(racing_member) >= 21:
 				await ctx.send('레이스 인원이 20명 초과입니다.')
 				return
 			else :
