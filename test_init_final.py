@@ -2632,7 +2632,7 @@ class mainCog(commands.Cog):
 					result_str += result[i][1] + "  " + result[i][0] + "  "
 					
 				#print(result)
-				await asyncio.sleep(0.5)
+				await asyncio.sleep(0.2)
 				return await result_race.edit(content = output + ':tada: 경주 종료!\n' + result_str)
 		else:
 			return
